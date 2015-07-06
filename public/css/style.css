@@ -1,0 +1,283 @@
+
+/* ####################################
+ ********* GENERAL DOCUMENT *********
+#################################### */
+
+* {
+	box-sizing: border-box;
+	color: #003459;
+}
+
+h1, h2, h3, p {
+	margin: 0;
+}
+
+/* ####################################
+ ************** HEADER **************
+#################################### */
+
+/* ------------------------------
+  ###### MAIN HEADER AREA ######
+ -------------------------------*/
+
+#header-main {
+	background-color: #75ABBC;
+	background: linear-gradient(#6F6E6E, transparent),
+				linear-gradient(0deg, #FFF, transparent),
+				url('../img/macbook.jpg') no-repeat center;
+	background-size: cover;
+	text-align: center;
+	padding: 50px 15% 200px;
+}
+
+#header-main h1 {
+	padding: 10px 2px 20px;
+	color: #fff;
+	font-size: 5rem;
+	border-bottom: 2px solid #003459;
+
+	/* Development Styles 
+	background-color: black;
+	*/
+	
+}
+
+#header-main h3 {
+	margin-top: 30px;
+	padding: 7.5px 2px;
+	color: #fff;
+	font-size: 2.5rem;
+
+	/* Development Styles */
+	
+}
+
+.arrow {
+	margin-top: 50px;
+	height: 25px;
+	width: 25px;
+}
+
+/* ####################################
+ *************** BODY ***************
+#################################### */
+
+#container h2 {
+	font-size: 2rem;
+}
+
+/* ------------------------------
+  ####### GENERAL STYLES #######
+ -------------------------------*/
+
+form {
+	padding: 20px;
+}
+.section-one,
+.section-two {
+	text-align: center;
+	padding: 5% 4% 20px;
+	margin: auto;
+	width: 50%;
+}
+
+/* ------------------------------
+  ######## ABOUT SECTION ########
+ -------------------------------*/
+
+.section-one {
+	float: left;
+}
+
+.section-one h2 {
+	font-size: 2rem;
+}
+
+.section-one p {
+	margin-top: 50px;
+}
+
+/* ------------------------------
+  ####### CONTACT SECTION #######
+ -------------------------------*/
+
+.section-two {
+	float: right;
+}
+
+.section-two input,
+.section-two textarea,
+.section-two button {
+	display: block;
+	margin: 25px auto;
+	padding: 10px;
+	width: 75%;
+	height: 50px;
+}
+
+.section-two textarea {
+	height: 100px;
+}
+
+/* ####################################
+ ************** FOOTER **************
+#################################### */
+
+footer {
+	clear: both;
+	background: linear-gradient(0deg, #BFBFBF, transparent 90%);
+	padding: 70px 50px 50px;
+}
+
+footer h2 {
+	float: left;
+	width: 50%;
+}
+
+/* ------------------------------
+  ##### FOOTER SOCIAL AREA #####
+ -------------------------------*/
+
+.nav-social {
+	margin: 0;
+	width: 50%;
+	display: inline-block;
+}
+
+.nav-social li {
+	display: inline;
+	float: right;
+	font-size: 1rem;
+	padding: 5px 15px;
+	border-right: 1px solid #75ABBC;
+}
+
+
+
+
+
+
+/* ####################################
+ *********** MEDIA QUERIES ************
+#################################### */
+
+@media (max-width: 900px) {
+
+	/* ####################################
+	************** HEADER **************
+	#################################### */
+
+	/* ------------------------------
+	###### MAIN HEADER AREA ######
+	-------------------------------*/
+
+	#header-main h1 {
+		padding: 10px 2px 20px;
+		color: #fff;
+		font-size: 4rem;
+		border-bottom: 2px solid #003459;
+
+		/* Development Styles 
+		background-color: black;
+		*/
+		
+	}
+}
+
+
+
+
+@media (max-width: 700px) {
+
+	/* ####################################
+	************** HEADER **************
+	#################################### */
+
+	/* ------------------------------
+	###### MAIN HEADER AREA ######
+	-------------------------------*/
+
+	#header-main h1 {
+		font-size: 3rem;
+	}
+
+	#header-main h3 {
+		font-size: 1.5rem;
+	}
+
+	/* ####################################
+	*************** BODY ***************
+	#################################### */
+
+	/* ------------------------------
+	####### GENERAL STYLES #######
+	-------------------------------*/
+
+	.section-one,
+	.section-two {
+		text-align: center;
+		padding: 5% 4% 20px;
+		margin: auto;
+		width: 100%;
+	}
+
+	/* ####################################
+	************** FOOTER **************
+	#################################### */
+
+	footer {
+		clear: both;
+		background: linear-gradient(0deg, #BFBFBF, transparent 90%);
+	}
+
+	footer h2,
+	.nav-social {
+		text-align: center;
+		margin: auto;
+		padding: 20px 0;
+		width: 100%;
+		display: inline-block;
+	}
+
+	/* ------------------------------
+  	##### FOOTER SOCIAL AREA #####
+ 	-------------------------------*/
+
+	.nav-social li {
+		float: none;
+		display: inline;
+		font-size: 1rem;
+		padding: 5px 15px;
+		border-right: 1px solid #75ABBC;
+	}
+
+	.nav-social li a {
+		text-align: center;
+	}
+}
+
+@media (max-width: 500px) {
+
+	/* ####################################
+	************** HEADER **************
+	#################################### */
+
+	/* ------------------------------
+	###### MAIN HEADER AREA ######
+	-------------------------------*/
+	#header-main {
+		padding: 30px 15% 100px;
+	}
+
+	#header-main h1 {
+		padding: 0;
+		font-size: 2.25rem;
+	}
+
+	#header-main h3 {
+		padding: 0;
+		font-size: 1rem;
+	}
+
+}
+

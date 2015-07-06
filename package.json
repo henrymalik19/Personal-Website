@@ -1,0 +1,16 @@
+{
+  "name": "malikhenry.me",
+  "version": "1.0.0",
+  "description": "Malik Henry Personal Blog",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Malik Henry",
+  "license": "ISC"
+}
