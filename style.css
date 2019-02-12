@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("img/background.svg");
+    background-size: cover;
+}
+.terminal {
+    width: 70vw;
+    height: 70vh;
+    margin: 15vh auto;
+}
+.terminalT {
+    background-color: #FFFFFF;
+    height: 10%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.terminalB {
+    background-color: #272727;
+    height: 90%;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
